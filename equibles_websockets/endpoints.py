@@ -1,0 +1,1 @@
+CRYPTOS = "cryptos"
