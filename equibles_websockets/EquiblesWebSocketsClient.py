@@ -17,7 +17,7 @@ class EquiblesWebSocketsClient:
 
         # builds the connection
         connection_builder = HubConnectionBuilder() \
-            .with_url("http://ws.equibles.com/" + self.endpoint) \
+            .with_url("http://websockets.equibles.com/" + self.endpoint) \
             .with_automatic_reconnect({
                 "type": "raw",
                 "skip_negotiation": True,
